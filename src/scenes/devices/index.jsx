@@ -11,43 +11,25 @@ const Devices = () => {
 
   const columns = [
     { field: "id", headerName: "ID", flex: 0.5 },
-    { field: "registrarId", headerName: "Registrar ID" },
     {
       field: "name",
-      headerName: "Name",
+      headerName: "Device Name",
       flex: 1,
       cellClassName: "name-column--cell",
     },
     {
-      field: "age",
-      headerName: "Age",
-      type: "number",
-      headerAlign: "left",
-      align: "left",
-    },
-    {
-      field: "phone",
-      headerName: "Phone Number",
+      field: "location",
+      headerName: "Device Location",
       flex: 1,
     },
     {
-      field: "email",
-      headerName: "Email",
+      field: "energy",
+      headerName: "Energy comsumption (Kwh)",
       flex: 1,
     },
     {
-      field: "address",
-      headerName: "Address",
-      flex: 1,
-    },
-    {
-      field: "city",
-      headerName: "City",
-      flex: 1,
-    },
-    {
-      field: "zipCode",
-      headerName: "Zip Code",
+      field: "time",
+      headerName: "Time",
       flex: 1,
     },
   ];
