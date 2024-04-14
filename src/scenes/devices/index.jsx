@@ -32,6 +32,12 @@ const Devices = () => {
       headerName: "Time",
       flex: 1,
     },
+    {
+      field: "cost",
+      headerName: "Cost",
+      flex: 1,
+    },
+
   ];
 
   return (

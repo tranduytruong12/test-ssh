@@ -81,6 +81,7 @@ export const mockDataContacts = [
     name: "Fan",
     location: "H1_401",
     energy: 21.24,
+    cost: "30$",
     time : "10/2/2024 - 12/2/2024"
   },
   {
@@ -88,6 +89,7 @@ export const mockDataContacts = [
     name: "Light",
     location: "H1_401",
     energy: 21.24,
+    cost: "30$",
     time : "10/2/2024 - 12/2/2024"
   },
   {
@@ -95,6 +97,7 @@ export const mockDataContacts = [
     name: "Air Conditioner",
     location: "H1_401",
     energy: 21.24,
+    cost: "30$",
     time : "10/2/2024 - 12/2/2024"
   },
   {
@@ -102,6 +105,7 @@ export const mockDataContacts = [
     name: "Projector",
     location: "H1_401",
     energy: 21.24,
+    cost: "30$",
     time : "10/2/2024 - 12/2/2024"
   },
 ];
